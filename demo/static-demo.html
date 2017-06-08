@@ -77,6 +77,7 @@
                 // this demonstrates how to register a new tool and add it to the default toolbar
                 $provide.decorator('taOptions', ['taRegisterTool', '$delegate', function(taRegisterTool, taOptions) { // $delegate is the taOptions we are decorating
                     taRegisterTool('test', {
+                        display: '<h1>POOP</h1>',
                         buttontext: 'Test',
                         action: function() {
                             alert('Test Pressed')

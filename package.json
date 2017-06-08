@@ -54,7 +54,8 @@
     "karma-phantomjs-launcher": "^1.0.2",
     "karma-script-launcher": "^1.0.0",
     "phantomjs": "^2.1.7",
-    "phantomjs-polyfill": "0.0.2"
+    "phantomjs-polyfill": "0.0.2",
+    "spectrum-colorpicker": "^1.8.0"
   },
   "scripts": {
     "test": "bower install && grunt travis-test --verbose"
